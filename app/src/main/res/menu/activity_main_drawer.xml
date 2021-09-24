@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_utama"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Utama"/>
+        <item android:id="@+id/nav_baru"
+            android:icon="@drawable/ic_baseline_local_offer_24"
+            android:title="Ajuan Baru"/>
+        <item android:id="@+id/nav_belumdiproses"
+            android:icon="@drawable/ic_outline_hourglass_full_24"
+            android:title="Belum Diproses"/>
+        <item android:id="@+id/nav_selesai"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Event Selesai"/>
+        <item android:id="@+id/nav_interview"
+            android:icon="@drawable/ic_baseline_duo_24"
+            android:title="Interview"/>
+        <item android:id="@+id/nav_ditolak"
+            android:icon="@drawable/ic_baseline_announcement_24"
+            android:title="Ajuan Ditolak"/>
+        <item android:id="@+id/nav_approve"
+            android:icon="@drawable/ic_baseline_loyalty_24"
+            android:title="Ajuan Approved"/>
+        <item android:id="@+id/nav_laporan"
+            android:icon="@drawable/ic_baseline_file_copy_24"
+            android:title="Laporan"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Log Out"/>
+        </menu>
+    </item>
+
+</menu>
